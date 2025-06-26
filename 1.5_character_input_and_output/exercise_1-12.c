@@ -6,7 +6,7 @@
 int main() {
     int c, state;
     state = OUT;
-
+/*"hi   black" (test string for going through it in my mind)*/
     while ((c = getchar()) != EOF) {
         if (c == ' ' || c == '\n' || c == '\t') {
             if (state == OUT) {
