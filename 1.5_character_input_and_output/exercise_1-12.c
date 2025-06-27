@@ -9,13 +9,13 @@ int main() {
 /*"hi   black" (test string for going through it in my mind)*/
     while ((c = getchar()) != EOF) {
         if (c == ' ' || c == '\n' || c == '\t') {
-            if (state == OUT) {
+            if (state == IN) {
                 putchar('\n');
-                state = IN;
+                state = OUT;
             }
         } else {
             putchar(c);
-            state = OUT;
+            state = IN;
         }
     }
 
