@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define TABSTOP 8
-# test
+
 int main() {
     int c;
     int column = 0;
