@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
+#include <string.h>
 
 int main() {
     printf("Range of unsigned char\n\t%d to %d\n", 0, UCHAR_MAX);
